@@ -1,0 +1,15 @@
+def main():
+    print("=== Jeu Roche / Papier / Ciseaux ===")
+
+    joueur = input("Choisis entre roche, papier ou ciseaux : ").lower()
+
+    while joueur not in ["roche", "papier", "ciseaux"]:
+        joueur = input("Choix invalide. Recommence (roche, papier ou ciseaux) : ").lower()
+
+    ordi = choix_ordinateur()
+
+    print(f"Tu as choisi : {joueur}")
+    print(f"L'ordinateur a choisi : {ordi}")
+
+    resultat = definir_gagnant(joueur, ordi)
+    print(resultat)
