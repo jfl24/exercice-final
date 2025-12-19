@@ -2,6 +2,6 @@ import random
 
 def choix_ordinateur():
     """
-    Génère un choix aléatoire pour l'ordinateur
+    Retourne pierre, papier ou ciseaux de façon aléatoire
     """
     return random.choice(["pierre", "papier", "ciseaux"])
