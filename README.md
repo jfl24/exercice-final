@@ -17,10 +17,10 @@
 ## Fonctionnalités
 
 
-- [main.py] Fonctionnalité 1 (par [Mevilen])
+- [main.py] Fonctionnalité 1 (par [Nerkesly])
 - [regles.py] Fonctionnalité 2 (par [Samuel])
 - [input.py] Fonctionnalité 3 (par [Jean-Francois])
-- [ordinateur.py] Fonctionnalité 4 (par [Nerkesly])
+- [ordinateur.py] Fonctionnalité 4 (par [Mevilen])
 
 ## Leçons Apprises
 
